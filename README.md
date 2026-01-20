@@ -109,7 +109,7 @@ do
     | grep complete \
     | cut -d ' ' -f 1 \
     | cut -c 2- \
-    | sed 's/\.p/\t/g' I am running a few minutes late; my previous meeting is running over.
+    | sed 's/\.p/\t/g'
     | cut -f 1 \
     | sort -u > "$line.complete.transcript.ids"
 done
